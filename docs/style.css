@@ -37,25 +37,32 @@ header {
 
 .h-butt {
     display: flex;
-    justify-content: center;
-    align-items: center;
     border: 0;
+    align-items: center;
+    justify-content: center;
     background-color: transparent;
-    background-image: url(assets/button.png);
+    background-image: url(assets/Button1.png);
     background-size: 100% 100%;
     margin-left: .5rem;
     width: 10rem;
+    height: 4.5rem;
     text-decoration: none;
     color: black;
 }
 
 .h-butt:hover {
-    width: 10.5rem;
+    background-image: url(assets/Button2.png);
+}
+
+.h-butt:active {
+    background-image: url(assets/Button3.png);
 }
 
 main {
     flex-grow: 1;
     padding: .5rem;
+    text-align: justify;
+    font-size: 1.5em;
 }
 
 #home-main {
@@ -71,7 +78,6 @@ main {
 
 #home-content {
     width: 40%;
-    font-size: 1.5em;
 }
 
 #home-content h1 {
@@ -80,7 +86,6 @@ main {
 }
 
 #home-content div {
-    text-align: justify;
     margin: 2rem 0;
 }
 
@@ -90,6 +95,18 @@ main {
     text-decoration: none;
     color: black;
     background-color: lightgray;
+}
+
+#prob-main {
+    padding: 0 20rem;
+}
+
+#prob-main div {
+    margin: 1rem 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 footer {
