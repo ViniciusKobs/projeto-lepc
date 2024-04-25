@@ -41,7 +41,7 @@ header {
     align-items: center;
     border: 0;
     background-color: transparent;
-    background-image: url(../assets/button.png);
+    background-image: url(assets/button.png);
     background-size: 100% 100%;
     margin-left: .5rem;
     width: 10rem;
