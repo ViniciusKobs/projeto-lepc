@@ -1,3 +1,7 @@
+* {
+    color: white;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -9,7 +13,9 @@ body {
 header {
     display: flex;
     height: 5rem;
-    background-color: lightgray;
+    background-image: url(assets/granulado.png);
+    background-size: auto;
+    background-color: #222831;
     padding: .5rem;
 }
 
@@ -24,7 +30,7 @@ header {
     font-size: 2em;
     font-weight: 600;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #h-right {
@@ -47,18 +53,17 @@ header {
     width: 10rem;
     height: 4.5rem;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .h-butt:hover {
     background-image: url(assets/Button2.png);
 }
 
-.h-butt:active {
-    background-image: url(assets/Button3.png);
-}
-
 main {
+    background-image: url(assets/granulado.png);
+    background-size: auto;
+    background-color: #31464e;
     flex-grow: 1;
     padding: .5rem;
     text-align: justify;
@@ -71,9 +76,9 @@ main {
     justify-content: center;
 }
 
-#home-logo {
-    border-radius: 50%;
-    padding-right: 2rem;
+#home-main img {
+    width: 40rem;
+    margin-right: 2rem;
 }
 
 #home-content {
@@ -82,7 +87,7 @@ main {
 
 #home-content h1 {
     display: inline;
-    border-bottom: .3rem lightgray solid;
+    border-bottom: .3rem white solid;
 }
 
 #home-content div {
@@ -93,8 +98,8 @@ main {
     display: inline;
     padding: .4rem .8rem;
     text-decoration: none;
-    color: black;
-    background-color: lightgray;
+    color: white;
+    background-color: #222831;
 }
 
 #prob-main {
@@ -105,10 +110,47 @@ main {
     margin: 1rem 0;
 }
 
+#time-cards-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 30rem;
+    flex-wrap: wrap;
+    border-radius: 0 1rem;
+    border-color: lightgray;
+}
+
+.time-cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.time-cards img {
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+}
+
+.time-cards h2 {
+    font-size: .9em;
+}
+
 h1 {
     text-align: center;
+    color: white;
 }
 
 footer {
     border:red 1px solid;
+}
+
+table {
+    width: 100%;
+    font-size: .6em;
+}
+
+td {
+    border: .1rem solid white;
+    padding: .5rem;
 }
