@@ -12,17 +12,19 @@ body {
 
 header {
     display: flex;
-    height: 5rem;
+    height: 6rem;
     background-image: url(assets/granulado.png);
     background-size: auto;
     background-color: #222831;
-    padding: .5rem;
+    border-bottom: .3rem #f08a5d solid;
 }
 
 #h-left {
     display: flex;
+    align-items: center;
     flex-basis: 1;
     flex-grow: 1;
+    padding: .5rem;
 }
 
 #title {
@@ -33,9 +35,14 @@ header {
     color: white;
 }
 
+/*#title {
+    height: 5rem;
+    width: 7rem;
+}*/
+
 #h-right {
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: right;
     flex-basis: 1;
     flex-grow: 2;
@@ -77,6 +84,7 @@ main {
 }
 
 #home-main img {
+    border-radius: 100%;
     width: 40rem;
     margin-right: 2rem;
 }
@@ -85,9 +93,15 @@ main {
     width: 40%;
 }
 
+/*#home-content a {
+    background-color: transparent;
+    background-image: url(assets/Button1.png);
+    background-size: 100% 100%;
+}*/
+
 #home-content h1 {
     display: inline;
-    border-bottom: .3rem white solid;
+    border-bottom: .3rem #f08a5d solid;
 }
 
 #home-content div {
@@ -95,11 +109,13 @@ main {
 }
 
 #home-content a {
+    background-color: transparent;
+    background-image: url(assets/Button3.png);
+    background-size: 100% 100%;
     display: inline;
-    padding: .4rem .8rem;
+    padding: 1rem 1.5rem;
     text-decoration: none;
     color: white;
-    background-color: #222831;
 }
 
 #prob-main {
