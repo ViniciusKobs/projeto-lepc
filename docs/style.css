@@ -127,10 +127,19 @@ main {
     margin: 1rem 0;
 }
 
+.data-card {
+    display: flex;
+}
+
+.data-card img {
+    width: 30rem;
+    margin: 0 2rem 0 0;
+}
+
 #time-cards-container {
     display: flex;
     justify-content: center;
-    margin: 0 30rem;
+    margin: 0 20rem;
     flex-wrap: wrap;
     border-radius: 0 1rem;
     border-color: lightgray;
@@ -139,18 +148,21 @@ main {
 .time-cards {
     display: flex;
     flex-direction: column;
-    margin: 0 1rem;
+    margin: 2rem 2rem;
     align-items: center;
 }
 
-.time-cards img {
-    border-radius: 5rem;
-    width: 15rem;
-    height: 15rem;
+.time-cards h2 {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 0;
+    color: #f08a5d;
 }
 
-.time-cards h2 {
+.time-cards p {
     font-size: .9em;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
