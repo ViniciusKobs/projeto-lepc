@@ -183,3 +183,25 @@ td {
     border: .1rem solid white;
     padding: .5rem;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.image-item {
+    text-align: center;
+}
+.image-item img {
+    width: 100%;
+    height: auto;
+}
+.image-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
